@@ -7,10 +7,6 @@
     box-sizing: border-box;
 }
 
-/* :root {
-
-} */
-
 body {
     
     font-family: 'Inter', sans-serif;
@@ -28,11 +24,15 @@ body {
     background: var(--background);
 }
 
-.parent-container {
-    /* border: 1px solid green; */
-    margin: 30px; 
+/*  ====================
+    =====Head-Title=====
+    ====================  */
+
+    .parent-container {
+    border: 1px solid green;
+    margin: 35px; 
     display: grid;
-    grid-template-columns: 89.5% 9.5%;
+    grid-template-columns: 88% 12%;
 }
 
 .parent-container > div:nth-child(1) {
@@ -52,10 +52,14 @@ body {
     display: flex;
     align-items: flex-end;
 }
-/* Slideshow container */
+
+/*  =============================
+    =====Slideshow-container=====
+    =============================  */
+
 .slideshow-container {
     /* border: 1px solid green; */
-    max-width: 1455px;
+    max-width: 1400px;
     height: 29rem;
     position: relative;
     margin: auto;
@@ -68,6 +72,7 @@ body {
     
     display: block;
 }
+
 /* Make the images invisible by default */
 .Containers {
     display: none;
@@ -138,3 +143,8 @@ body {
     from {opacity: .5}
     to {opacity: 2}
 }
+
+/*  =======================
+    =====About-Section=====
+    =======================  */
+
