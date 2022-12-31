@@ -1,0 +1,140 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+/* :root {
+
+} */
+
+body {
+    
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+
+    --background: #F0ECCF;
+    --color: #343434;
+}
+
+.primary-clr {
+    color: var(--color);
+}
+
+.primary-bg {
+    background: var(--background);
+}
+
+.parent-container {
+    /* border: 1px solid green; */
+    margin: 30px; 
+    display: grid;
+    grid-template-columns: 89.5% 9.5%;
+}
+
+.parent-container > div:nth-child(1) {
+    /* border: 1px solid red; */
+    font-size: 5vmin;
+    margin: 20px;
+    width: 400px;
+}
+
+.parent-container > div:nth-child(2) {
+    /* border: 1px solid red; */
+    font-size: 2.5vmin;
+    margin: 10px;
+    width: 130px;
+    height: 180px;
+
+    display: flex;
+    align-items: flex-end;
+}
+/* Slideshow container */
+.slideshow-container {
+    /* border: 1px solid green; */
+    max-width: 1455px;
+    height: 29rem;
+    position: relative;
+    margin: auto;
+}
+
+.img-slide {
+    width: 91rem;
+    height: 29rem;
+    object-fit: cover;
+    
+    display: block;
+}
+/* Make the images invisible by default */
+.Containers {
+    display: none;
+
+    box-shadow: 3px 3px 25px 5px rgba(0, 0, 0, .5)
+}
+
+/* forward & back buttons */
+.back, .forward {
+    cursor: pointer;
+    position: absolute;
+    top: 48%;
+    width: auto;
+    margin-top: -23px;
+    padding: 17px;
+    color: grey;
+    font-weight: bold;
+    font-size: 19px;
+    transition: 0.4s ease;
+    border-radius: 0 5px 5px 0;
+    user-select: none;
+}
+
+/* Place the "forward button to the right" */
+.forward {
+    right: 0;
+    border-radius: 4px 0 0 4px;
+}
+
+/* The circle or bullets and indicators */
+.dots {
+    /* border: 1px soild blue; */
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+    margin: 0 3px;
+    padding-top: 0;
+    background-color: #F3F3F3;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+}
+
+.enable, .dots:hover {
+    background-color: #8E8B82;
+}
+
+.dots-container {
+    position: absolute;
+    top: 700px;
+    right: 700px;
+}
+
+/* Faint animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.4s;
+    animation-name: fade;
+    animation-duration: 1.4s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .5}
+    to {opacity: 2}
+}
+
+@keyframes fade {
+    from {opacity: .5}
+    to {opacity: 2}
+}

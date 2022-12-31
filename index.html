@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website | Web App Dev</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+    
+    <style> @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap'); </style>
+</head>
+<body class="primary-clr primary-bg">
+    <div class="main-container">
+        <!-- Head Title -->
+        <div class="parent-container">
+            <div class="">
+                <h1>Aurora Zafra</h1>
+            </div>
+
+            <div class="">
+                <h3>Zealous in Doing Victory With a Notion</h3>
+            </div>
+        </div>
+
+        <!--Slideshow container -->
+        <div class="slideshow-container fade">
+
+            
+            <div class="Containers">
+                <img src="/img/aesth-trio2.png" style="width: 100%;" class="img-slide">
+            </div>
+
+            <div class="Containers">
+                <img src="/img/hihat-snare.png" width="100%" class="img-slide">
+            </div>
+
+            <div class="Containers">
+                <img src="/img/aesth-guitar-closeUp.png" style="width: 100%;" class="img-slide">
+            </div>
+
+            
+            <a class="back" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <div style="text-align: center" class="dots-container">
+            <span class="dots" onclick="currentSlide(1)"></span>
+            <span class="dots" onclick="currentSlide(2)"></span>
+            <span class="dots" onclick="currentSlide(3)"></span>
+        </div>
+    
+
+    </div>
+    <script src="/js/app.js"></script>
+</body>
+</html>
