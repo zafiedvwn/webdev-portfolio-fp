@@ -29,7 +29,7 @@ body {
     ====================  */
 
     .parent-container {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     margin: 35px; 
     display: grid;
     grid-template-columns: 88% 12%;
