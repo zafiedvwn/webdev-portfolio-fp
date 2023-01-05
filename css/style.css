@@ -169,8 +169,10 @@ body {
 .about-container > div:nth-child(2) {
     /* border: 1px solid red; */
     margin: 20px;
-    width: 34rem;
-    height: 42.5rem;
+    width: 33.6rem;
+    height: 41.9rem;
+
+    box-shadow: 3px 3px 25px 5px rgba(0, 0, 0, .5)
 }
 
 .about-heading {
@@ -203,11 +205,11 @@ body {
 
 .about-img{
     /* border: 1px solid red; */
-    margin: 0.5rem;
-    padding: 0.1rem;
-    width: 33rem;
-    height: 41.5rem;
+    margin: 0.1px;
+    padding: 0.1px;
+    width: 33.8rem;
+    height: 42rem;
     object-fit: cover;
-    
+
     display: block;
 }
