@@ -10,10 +10,11 @@
 body {
     
     font-family: 'Inter', sans-serif;
-    font-weight: 500;
 
     --background: #F0ECCF;
     --color: #343434;
+
+    /* border: 3px solid blue; */
 }
 
 .primary-clr {
@@ -27,26 +28,27 @@ body {
 /*  ====================
     =====Head-Title=====
     ====================  */
-
-    .parent-container {
+.parent-container {
     /* border: 1px solid green; */
-    margin: 35px; 
+    margin: 20px; 
     display: grid;
     grid-template-columns: 88% 12%;
 }
 
 .parent-container > div:nth-child(1) {
     /* border: 1px solid red; */
-    font-size: 5vmin;
+    font-size: 2.5vw;
+    letter-spacing: 0.4rem;
     margin: 20px;
-    width: 400px;
+    width: 350px;
 }
 
 .parent-container > div:nth-child(2) {
     /* border: 1px solid red; */
-    font-size: 2.5vmin;
+    font-size: 1.2vw;
+    letter-spacing: 0.1rem;
     margin: 10px;
-    width: 130px;
+    width: 160px;
     height: 180px;
 
     display: flex;
@@ -58,16 +60,16 @@ body {
     =============================  */
 
 .slideshow-container {
-    /* border: 1px solid green; */
-    max-width: 1400px;
-    height: 29rem;
+    /* border: 1px solid red; */
+    max-width: 93rem;
+    height: 30.1rem;
     position: relative;
     margin: auto;
 }
 
 .img-slide {
     width: 91rem;
-    height: 29rem;
+    height: 30rem;
     object-fit: cover;
     
     display: block;
@@ -122,8 +124,8 @@ body {
 
 .dots-container {
     position: absolute;
-    top: 700px;
-    right: 700px;
+    top: 720px;
+    right: 760px;
 }
 
 /* Faint animation */
@@ -148,3 +150,64 @@ body {
     =====About-Section=====
     =======================  */
 
+.about-container {
+    /* border: 1px solid green; */
+    margin: 20px;
+
+    height: 45rem;
+    display: grid;
+    grid-template-columns: 62% 38%;
+}
+
+.about-container > div:nth-child(1) {
+    /* border: 1px solid red; */
+    margin: 20px;
+    width: 59.5rem;
+    height: 42.5rem;
+}
+
+.about-container > div:nth-child(2) {
+    /* border: 1px solid red; */
+    margin: 20px;
+    width: 34rem;
+    height: 42.5rem;
+}
+
+.about-heading {
+    /* border: 1px solid red; */
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    margin: 10px;
+    width: 58rem;
+
+    font-size: 5vw;
+
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.about-description {
+    /* border: 1px solid red; */
+    margin: 10px;
+    padding-left: 25rem;
+    width: 58rem;
+
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    text-align: justify;
+
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.about-img{
+    /* border: 1px solid red; */
+    margin: 0.5rem;
+    padding: 0.1rem;
+    width: 33rem;
+    height: 41.5rem;
+    object-fit: cover;
+    
+    display: block;
+}
