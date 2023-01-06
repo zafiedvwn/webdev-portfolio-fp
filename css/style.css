@@ -293,8 +293,117 @@ body {
 }
 
 .section-two {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     margin: 20px;
     max-width: 500rem;
     height: 51rem;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.section-two > div:nth-child(1) {
+    /* border: 1px solid red; */
+    margin: 20px;
+    padding: 100px 0 180px 0;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.section-two > div:nth-child(2) {
+    /* border: 1px solid red; */
+    margin: 20px;
+    padding: 100px 0 0 0;
+}
+
+.lft-txt-align {
+    padding-top: 150px;
+}
+
+.rght-txt-align {
+    text-align: left;
+}
+
+.section-three {
+    /* border: 1px solid green; */
+    margin: 20px;
+    max-width: 500rem;
+    height: 51rem;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.section-three > div:nth-child(1) {
+    /* border: 1px solid red; */
+    margin: 20px;
+    font-size: 2rem;
+}
+
+.section-three > div:nth-child(2) {
+    /* border: 1px solid red; */
+    margin: 20px;
+    padding: 11rem 0 0 0;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.long-img {
+    margin: 5px;
+    width: 25rem;
+    height: 33rem;
+
+    object-fit: cover;
+
+    display: block;
+    box-shadow: 3px 3px 25px 5px rgba(0, 0, 0, .5)
+}
+
+.sml-description {
+    /* border: 1px solid red; */
+    padding: 30rem 2rem 0 0;
+    font-size: 1.5rem;
+}
+
+.contact-section {
+    /* border: 1px solid green; */
+    margin: 20px;
+    max-width: 500rem;
+    height: 51rem;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.contact-section > div:nth-child(1) {
+    /* border: 1px solid red; */
+    margin: 20px;
+    padding-top: 1px;
+    font-size: 2.5rem;
+}
+
+.contact-section > div:nth-child(2) {
+    /* border: 1px solid red; */
+    margin: 20px;
+    font-size: 1.5rem;
+}
+
+.contact-heading {
+    /* border: 1px solid red; */
+    margin: 20px;
+    width: 25rem;
+}
+
+.hori-img {
+    margin: 1rem;
+    width: 35rem;
+
+    box-shadow: 3px 3px 25px 5px rgba(0, 0, 0, .5)
+}
+
+.contact-description {
+    /* border: 1px solid red; */
+    margin: 5px;
+    padding: 3px 0 10px 13px;
 }
