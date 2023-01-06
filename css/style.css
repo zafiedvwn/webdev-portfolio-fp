@@ -14,7 +14,7 @@ body {
     --background: #F0ECCF;
     --color: #343434;
 
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
 }
 
 .primary-clr {
@@ -29,7 +29,7 @@ body {
     =====Head-Title=====
     ====================  */
 .parent-container {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     margin: 20px;
     max-width: 500rem;
     display: grid;
@@ -45,7 +45,7 @@ body {
 }
 
 .parent-container > div:nth-child(2) {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-size: 1.2vw;
     letter-spacing: 0.1rem;
     margin: 10px;
@@ -62,7 +62,7 @@ body {
 
 .slideshow-container {
     /* border: 1px solid red; */
-    max-width: 106rem;
+    max-width: 95rem;
     height: 30.1rem;
     position: relative;
     margin: auto;
@@ -107,7 +107,7 @@ body {
 
 /* The circle or bullets and indicators */
 .dots {
-    border: 1px soild blue;
+    /* border: 1px solid blue; */
     cursor: pointer;
     height: 16px;
     width: 16px;
@@ -125,8 +125,8 @@ body {
 
 .dots-container {
     position: absolute;
-    top: 780px;
-    right: 850px;
+    top: 720px;
+    right: 770px;
 }
 
 /* Faint animation */
@@ -152,7 +152,7 @@ body {
     =======================  */
 
 .about-container {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     margin: 20px;
     max-width: 500rem;
     height: 51rem;
@@ -163,16 +163,16 @@ body {
 .about-container > div:nth-child(1) {
     /* border: 1px solid red; */
     margin: 20px;
-    padding-left: 3rem;
+    padding-left: 1rem;
     width: 59.5rem;
-    height: 42.5rem;
+    height: 45rem;
 }
 
 .about-container > div:nth-child(2) {
     /* border: 1px solid red; */
     margin: 20px;
-    padding-left: 3rem;
-    padding-top: 3rem;
+    padding-left: 0.1rem;
+    padding-top: 1.5rem;
     width: 33.6rem;
     height: 42rem;
 }
@@ -182,7 +182,7 @@ body {
     padding-top: 5rem;
     padding-bottom: 2.5rem;
     margin: 10px;
-    width: 58rem;
+    width: 57rem;
 
     font-size: 5vw;
 
@@ -196,7 +196,7 @@ body {
     margin: 10px;
     padding-left: 25rem;
     padding-right: 3rem;
-    width: 65rem;
+    width: 57rem;
 
     font-size: 1.1rem;
     letter-spacing: 0.1rem;
@@ -223,7 +223,7 @@ body {
     ============================  */
 
 .section-one {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     margin: 20px;
     max-width: 500rem;
     height: 51rem;
@@ -236,7 +236,7 @@ body {
     margin: 20px;
     padding-top: 5rem;
     width: 36.5rem;
-    height: 42rem;
+    height: 45rem;
 }
 
 .section-one > div:nth-child(2) {
@@ -244,7 +244,7 @@ body {
     margin: 20px;
     padding: 0 0 150px 30px;
     width: 57rem;
-    height: 42rem;
+    height: 45rem;
 
     display: grid;
     grid-template-columns: 2fr 2fr;
@@ -266,15 +266,15 @@ body {
     /* border: 1px solid red; */
     margin: 1rem;
     padding: 0.5rem;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-align: center;
 
 }
 
 .lrg-img {
     margin: 1rem;
-    width: 40rem;
-    height: 32rem;
+    width: 35rem;
+    height: 28rem;
 
     object-fit: cover;
 
@@ -283,8 +283,8 @@ body {
 
 .md-img {
     margin: 1rem;
-    width: 30rem;
-    height: 25rem;
+    width: 25rem;
+    height: 20rem;
 
     object-fit: cover;
 
