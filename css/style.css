@@ -9,7 +9,7 @@
 
 body {
     margin: 20px;
-    max-width: 500rem;
+    max-width: 100%;
     font-family: 'Inter', sans-serif;
 
     --background: #F0ECCF;
