@@ -8,13 +8,12 @@
 }
 
 body {
-    
+    margin: 20px;
+    max-width: 500rem;
     font-family: 'Inter', sans-serif;
 
     --background: #F0ECCF;
     --color: #343434;
-
-    /* border: 3px solid blue; */
 }
 
 .primary-clr {
@@ -29,15 +28,11 @@ body {
     =====Head-Title=====
     ====================  */
 .parent-container {
-    /* border: 1px solid green; */
-    margin: 20px;
-    max-width: 500rem;
     display: grid;
     grid-template-columns: 88% 12%;
 }
 
 .parent-container > div:nth-child(1) {
-    /* border: 1px solid red; */
     font-size: 2.5vw;
     letter-spacing: 0.4rem;
     margin: 20px;
@@ -45,7 +40,6 @@ body {
 }
 
 .parent-container > div:nth-child(2) {
-    /* border: 1px solid red; */
     font-size: 1.2vw;
     letter-spacing: 0.1rem;
     margin: 10px;
@@ -61,7 +55,6 @@ body {
     =============================  */
 
 .slideshow-container {
-    /* border: 1px solid red; */
     max-width: 95rem;
     height: 30.1rem;
     position: relative;
@@ -152,16 +145,12 @@ body {
     =======================  */
 
 .about-container {
-    /* border: 1px solid green; */
-    margin: 20px;
-    max-width: 500rem;
     height: 51rem;
     display: grid;
     grid-template-columns: 62% 38%;
 }
 
 .about-container > div:nth-child(1) {
-    /* border: 1px solid red; */
     margin: 20px;
     padding-left: 1rem;
     width: 59.5rem;
@@ -169,7 +158,6 @@ body {
 }
 
 .about-container > div:nth-child(2) {
-    /* border: 1px solid red; */
     margin: 20px;
     padding-left: 0.1rem;
     padding-top: 1.5rem;
@@ -178,7 +166,6 @@ body {
 }
 
 .about-heading {
-    /* border: 1px solid red; */
     padding-top: 5rem;
     padding-bottom: 2.5rem;
     margin: 10px;
@@ -192,7 +179,6 @@ body {
 }
 
 .about-description {
-    /* border: 1px solid red; */
     margin: 10px;
     padding-left: 25rem;
     padding-right: 3rem;
@@ -207,7 +193,6 @@ body {
 }
 
 .about-img{
-    /* border: 1px solid red; */
     margin: 0.1px;
     padding: 0.1px;
     width: 33.8rem;
@@ -223,16 +208,12 @@ body {
     ============================  */
 
 .section-one {
-    /* border: 1px solid green; */
-    margin: 20px;
-    max-width: 500rem;
     height: 51rem;
     display: grid;
     grid-template-columns: 38% 62%;
 }
 
 .section-one > div:nth-child(1) {
-    /* border: 1px solid red; */
     margin: 20px;
     padding-top: 5rem;
     width: 36.5rem;
@@ -240,7 +221,6 @@ body {
 }
 
 .section-one > div:nth-child(2) {
-    /* border: 1px solid red; */
     margin: 20px;
     padding: 0 0 150px 30px;
     width: 57rem;
@@ -248,13 +228,9 @@ body {
 
     display: grid;
     grid-template-columns: 2fr 2fr;
-    
-    /* display: flex;
-    flex-direction: row; */
 }
 
 .instru-heading {
-    /* border: 1px solid red; */
     margin: 1rem;
     width: 20rem;
 
@@ -263,7 +239,6 @@ body {
 }
 
 .instru-description {
-    /* border: 1px solid red; */
     margin: 1rem;
     padding: 0.5rem;
     font-size: 1.2rem;
@@ -289,13 +264,9 @@ body {
     object-fit: cover;
 
     box-shadow: 3px 3px 25px 5px rgba(0, 0, 0, .5)
-    /* border: 1px solid red; */
 }
 
 .section-two {
-    /* border: 1px solid green; */
-    margin: 20px;
-    max-width: 500rem;
     height: 51rem;
 
     display: grid;
@@ -303,7 +274,6 @@ body {
 }
 
 .section-two > div:nth-child(1) {
-    /* border: 1px solid red; */
     margin: 20px;
     padding: 100px 0 180px 0;
     display: grid;
@@ -311,7 +281,6 @@ body {
 }
 
 .section-two > div:nth-child(2) {
-    /* border: 1px solid red; */
     margin: 20px;
     padding: 100px 0 0 0;
 }
@@ -325,9 +294,6 @@ body {
 }
 
 .section-three {
-    /* border: 1px solid green; */
-    margin: 20px;
-    max-width: 500rem;
     height: 51rem;
 
     display: grid;
@@ -335,13 +301,11 @@ body {
 }
 
 .section-three > div:nth-child(1) {
-    /* border: 1px solid red; */
     margin: 20px;
     font-size: 2rem;
 }
 
 .section-three > div:nth-child(2) {
-    /* border: 1px solid red; */
     margin: 20px;
     padding: 11rem 0 0 0;
 
@@ -366,15 +330,11 @@ body {
 }
 
 .sml-description {
-    /* border: 1px solid red; */
     padding: 25rem 2rem 0 0;
     font-size: 1.5rem;
 }
 
 .contact-section {
-    /* border: 1px solid green; */
-    margin: 20px;
-    max-width: 500rem;
     height: 51rem;
 
     display: grid;
@@ -382,20 +342,17 @@ body {
 }
 
 .contact-section > div:nth-child(1) {
-    /* border: 1px solid red; */
     margin: 20px;
     padding-top: 1px;
     font-size: 2.5rem;
 }
 
 .contact-section > div:nth-child(2) {
-    /* border: 1px solid red; */
     margin: 20px;
     font-size: 1.5rem;
 }
 
 .contact-heading {
-    /* border: 1px solid red; */
     margin: 20px;
     width: 25rem;
 }
@@ -408,7 +365,6 @@ body {
 }
 
 .contact-description {
-    /* border: 1px solid red; */
     margin: 5px;
     padding: 3px 0 10px 13px;
 }
