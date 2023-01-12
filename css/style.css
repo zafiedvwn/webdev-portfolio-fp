@@ -72,7 +72,7 @@ body {
 /* Make the images invisible by default */
 .Containers {
     display: none;
-
+    max-width: 100%;
     box-shadow: 3px 3px 25px 5px rgba(0, 0, 0, .5)
 }
 
